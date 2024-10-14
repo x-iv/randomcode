@@ -31,8 +31,3 @@ plt.axvline(0, color='black',linewidth=0.5)
 plt.grid(color = 'gray', linestyle = '--', linewidth = 0.5)
 plt.legend()
 plt.show()
-with open('sampletxt1-nigeria.txt', 'r') as file:
-    for countw in file:
-        print(countw.count('o'))
-        print(file.readline(8))
-        
